@@ -1,0 +1,108 @@
+/*
+//---------------------------------------------------------
+//                         JUEGO
+//---------------------------------------------------------
+*/
+
+body {
+    background: #232323;
+    margin: 0;
+    font-family: "Montserrat", "Avenir";
+  }
+
+/*
+//---------------------------------------------------------
+//                          HEADER
+//---------------------------------------------------------
+*/
+
+h1 {
+  font-weight: normal;
+  line-height: 1.1;
+  padding: 20px 0;
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+#colorDisplay {
+  font-size: 350%;
+}
+#header {
+  transition: all 0.3s;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0;
+  color: white;
+}
+/*
+//---------------------------------------------------------
+//                          BODY
+//---------------------------------------------------------
+*/
+#container {
+    margin: 20px auto;
+    max-width: 800px;
+}
+/*
+//---------------------------------------------------------
+//                          CUADRADO
+//---------------------------------------------------------
+*/
+.square {
+    width: 30%;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+    border-radius: 10%;
+    transition: background 0.8s;
+    -webkit-transition: background 0.8s;
+    -moz-transition: background 0.8s;
+}
+/*
+//---------------------------------------------------------
+//                          NAVBAR
+//---------------------------------------------------------
+*/
+#navigator {
+    background: #ffffff;
+    height: 30px;
+    text-align: center;
+    margin: 0;
+    margin-top: -30px;
+  }
+  
+  button {
+    border: none;
+    background-color: white;
+    font-family: "Montserrat", "Avenir";
+    text-transform: uppercase;
+    height: 100%;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: steelblue;
+    transition: all 0.3s;
+    outline: none;
+    padding: 9px;
+  }
+  
+  button:hover {
+    color: white;
+    background-color: steelblue;
+  }
+  
+  #message {
+    color: black;
+    display: inline-block;
+    width: 20%;
+    font-weight: bold;
+  }
+  
+  #aciertos {
+    color: steelblue;
+    width: 20%;
+    font-weight: bold;
+    margin-left: 10px;
+}
